@@ -1,0 +1,82 @@
+.calendar {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    bottom: 535px;
+    left: 35px;
+    right: 40px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 'Cafe24Ohsquareair';
+}
+
+.today {
+    flex: 0.25;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: steelblue;
+}
+
+.day_list {
+    flex: 1;
+    margin-left: 40px;
+    margin-top: 2px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.diary {
+    position: absolute;
+    top: 80px;
+    bottom: 15px;
+    left: 5px;
+    right: 5px;
+    overflow: auto;
+}
+
+.diary_contents {
+    margin: 10px;
+    border: 1px solid silver;
+    border-radius: 2%;
+}
+
+.diary_date {
+    color: steelblue;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'Cafe24Ohsquareair';
+}
+
+.diary_text {
+    color: black;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Cafe24Ohsquareair', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#button {
+    margin-left: 180px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 15px;
+    color: white;
+    background-color: white;
+    font-family: 'Cafe24Ohsquareair', cursive;
+}
+
+#button:hover {
+    color:black;
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    border-radius: 5%;
+}
+
+#hidden {
+    display: none;
+}
